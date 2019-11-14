@@ -1,0 +1,58 @@
+[data-color="first"]{
+    background-color: darkorchid
+}
+
+[data-color="second"]{
+    background-color: yellow;
+}
+
+[data-color="third"]{
+    background-color: #9ACD32
+}
+
+[data-color="fourth"]{
+    background-color: red;
+}
+
+.card{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+    width: 25%;   
+    position: relative;
+    border-radius: 5px;
+}
+
+.wrap-card-colors{
+    position: absolute;
+    top: -20px;
+    left: 0%;
+}
+
+.card-colors{
+    width: 32px;
+    height: 32px;
+    text-indent: -999px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid rgba(0.5,0.5,0.5,0.4);
+    box-sizing: border-box;
+}
+
+.card-colors.isActive{
+    border-width: 4px;
+
+}
+
+@media(max-width: 467px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media(min-width: 468px) and (max-width: 981px) {
+    .card {
+        width: 50%;
+    }
+}

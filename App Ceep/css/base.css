@@ -1,0 +1,26 @@
+body, html{
+    height: 100vh;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-color: #dae2d2;
+    background-position: top;
+    background-size: cover;
+}
+
+.container{
+    padding: 0 10%;
+}
+
+img.animation{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+img.animation-2{
+    position: fixed;
+    bottom: 5px;
+    left: 70px;
+

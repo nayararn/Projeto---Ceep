@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+}
+
+a{
+    text-decoration: none;
+    color:  inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
